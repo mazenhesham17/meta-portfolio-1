@@ -53,35 +53,40 @@ a{
 
 .promotion{
     height: 50vh;
-    color: white;
-    font-size: 5rem;
-    text-align: center;
-    justify-content: center;
     margin: 10px;
 }
 
-.promotion div{
+#inner-promo{
+    width: 50%;
+    color: #F8F0E5;
+    font-size: 1.75rem;
+    padding: 10px;
+}
+
+#promo{
     height: 100%;
     width: 100%;
     border-radius: 20px;
     background-image: url(./images/promotion.jpg);
-    object-fit: cover;
-    background-repeat: no-repeat;
+    object-fit: cover;    
 }
 
 .articles{
     display: flex;
     justify-content: center;
-    height: 35vh;
+    height: 70vh;
 }
 
 article{
     padding: 20px ;
     margin: 10px ;
-    width: 15vw ;
-    font-size: 1.5rem;
-    background-color: #EADBC8;
+    width: 23vw ;
+    font-size: 1.3rem;
+    color: #F8F0E5;
+    background-color: #DAC0A3;
     border-radius: 20px;
+    justify-content: center;
+    text-align: center;
 }
 
 article img{
@@ -90,7 +95,8 @@ article img{
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    padding: 10px;
 }
 
 .foot{
