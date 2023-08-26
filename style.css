@@ -1,34 +1,35 @@
 *{
-    padding: 0px;
     margin: 0px;
 }
 
 html{
     font-size: 100%;
-    padding: 2rem 5rem 2rem 5rem;
-}
-
-@media only screen and ( max-width: 400px) {
-    html{
-        font-size: 80%;
-    }
+    padding: 1rem 5rem 1rem 5rem;
+    background-color: #F8F0E5;
 }
 
 .head{
-    background-color: blue;
-    height: 20vh;
+    height: 25vh;
     min-height: 100px;
     text-align: center;
     align-items: center;
     font-size: 5rem ;
+    padding: 10px;
+    margin: 10px;
+}
+
+.head img{
+    height: 100%;    
+    object-fit: cover;
 }
 
 .nav{
-    background-color: red;
+    background-color: black ;
     display: flex;
     border-radius: 10px;
     text-align: center;
     justify-content: center;
+    margin: 10px;
 }
 
 ul{
@@ -36,7 +37,7 @@ ul{
 }
 
 li{
-    color: white;
+    color: #F8F0E5;
     font-size: 2rem;
     text-align: center;
     padding: 15px;
@@ -45,16 +46,27 @@ li{
 }
 
 a{
+    color: #F8F0E5;
     text-decoration: none;
 }
 
 
 .promotion{
-    height: 30vh;
+    height: 50vh;
     color: white;
     font-size: 5rem;
     text-align: center;
     justify-content: center;
+    margin: 10px;
+}
+
+.promotion div{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url(./images/promotion.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
 
 .articles{
@@ -66,8 +78,15 @@ a{
 article{
     padding: 20px ;
     margin: 10px ;
-    width: 200px ;
+    width: 15vw ;
     font-size: 1.5rem;
+    background-color: #EADBC8;
+    border-radius: 20px;
+}
+
+article img{
+    height: 20vh;    
+    object-fit: contain;
 }
 
 h1{
@@ -80,11 +99,18 @@ h1{
     justify-content: center;
 }
 
-
+.foot img{
+    width: 80vw;
+    object-fit: contain;
+}
 
 .foot > div{
     padding: 10px;
     width: 100%;
     text-align: center;
-    font-size: 1.5rem;
+}
+
+.copyright{
+    writing-mode: vertical-rl;
+    font-size: 0.875rem;
 }
