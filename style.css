@@ -2,3 +2,89 @@
     padding: 0px;
     margin: 0px;
 }
+
+html{
+    font-size: 100%;
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+@media only screen and ( max-width: 400px) {
+    html{
+        font-size: 80%;
+    }
+}
+
+.head{
+    background-color: blue;
+    height: 20vh;
+    min-height: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: 5rem ;
+}
+
+.nav{
+    background-color: red;
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 15px;
+    display: inline;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.promotion{
+    height: 30vh;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.articles{
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+}
+
+article{
+    padding: 20px ;
+    margin: 10px ;
+    width: 200px ;
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.foot{
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+}
+
+
+
+.foot > div{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
